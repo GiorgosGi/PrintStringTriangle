@@ -12,7 +12,9 @@ namespace PrintStringTriangle
         static void Main(string[] args)
         {
             Console.Write("Write a string: ");
+
             string text = Console.ReadLine();
+
             Console.WriteLine();
 
             int j = 1;
