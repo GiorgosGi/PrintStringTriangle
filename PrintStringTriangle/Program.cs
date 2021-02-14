@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace PrintStringTriangle
 {
     class Program
+        //give a string and output a triangle
     {
         static void Main(string[] args)
         {
@@ -20,7 +21,8 @@ namespace PrintStringTriangle
                 Console.WriteLine(text.Substring(i, j));
                 j++;
             }
-            Console.WriteLine();
+
+            Console.ReadKey();
         }
     }
 }
